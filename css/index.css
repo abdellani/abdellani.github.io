@@ -1,0 +1,63 @@
+@media (min-width: 768px) {
+  body .position-md-fixed {
+    position: fixed;
+    left: 0;
+    width: 41.666667%;
+    z-index: 12; } }
+body ul li a {
+  color: black; }
+body #left-page {
+  height: 100vh; }
+  body #left-page ul {
+    font-size: 25px; }
+body .project {
+  height: 100vh; }
+  body .project:nth-child(1) {
+    background-color: #007bff !important;
+    color: #fff; }
+    body .project:nth-child(1) a {
+      color: #fff; }
+  body .project:nth-child(2) {
+    background-color: #141925 !important;
+    color: white; }
+    body .project:nth-child(2) a {
+      color: white; }
+  body .project:nth-child(3) {
+    background-color: #ffa500 !important;
+    color: #010038; }
+    body .project:nth-child(3) a {
+      color: #010038; }
+  body .project:nth-child(4) {
+    background-color: #222831 !important;
+    color: #c9d1d3; }
+    body .project:nth-child(4) a {
+      color: #c9d1d3; }
+  body .project .technologies {
+    font-size: 13px; }
+  body .project .preview-container {
+    flex-basis: 80vh;
+    overflow: hidden; }
+    body .project .preview-container .preview {
+      max-height: 90%;
+      max-width: 90%; }
+  body .project .footer {
+    flex-basis: 20vh; }
+    body .project .footer li {
+      background: transparent !important; }
+      body .project .footer li i {
+        font-size: 25px; }
+
+#under_construction_page {
+  background-color: #fafbfd;
+  height: 100vh; }
+  #under_construction_page .main_pic {
+    min-width: 250px;
+    width: 60%;
+    margin: auto;
+    display: block; }
+  #under_construction_page a {
+    color: black; }
+  #under_construction_page footer {
+    font-size: 10px; }
+
+/*# sourceMappingURL=index.css.map */
